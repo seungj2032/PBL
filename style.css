@@ -55,15 +55,15 @@
 } 
 
 body{
-    background-color: #000000;
+    background-color: rgba(85, 85, 85, 0.7);
     padding: 10px;
 }
 .container{
     display: flex;
     flex-flow: column wrap;
     background-color: #ffffff;
-    width: 500px;
-    height: 350px;
+    width: 550px;
+    height: 400px;
     text-align: center;
     justify-content: flex-start;
     align-items: center;
@@ -76,10 +76,10 @@ h1{
     margin-top: 80px;
 }
 .color{
-    border: 4px solid #000000;
-    width: 453px;
-    height: 126px;
-    margin-top: 40px;
+    border: 6px solid #000000;
+    width: 456px;
+    height: 156px;
+    margin-top: 50px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -90,7 +90,7 @@ h1{
     display: inline-block;
     border: 2px solid #000000;
     width: 100px;
-    height: 50px;
+    height: 65px;
     font-family: "NanumSquareNeo Heavy";
     color: #ffffff;
     text-align: center;
@@ -98,32 +98,29 @@ h1{
     padding: 5px;
 }
 #red{
-    background-color: red;
+    background-color: rgb(255, 0, 0);
 }
 #orange{
-    background-color: orange;
+    background-color: rgb(255, 166, 0);
     color:#000000;
 }
 #yellow{
-    background-color: yellow;
+    background-color: rgb(255, 255, 0);
 }
 #green{
-    background-color: green;
+    background-color: rgb(29, 152, 0)
 }
 #blue{
-    background-color: blue;
+    background-color: rgb(0, 0, 255);
 }
 #navy{
-    background-color: navy;
+    background-color: rgb(0, 0, 109);
 }
 #purple{
-    background-color: purple;
+    background-color: rgb(107, 0, 128);
 }
 #pink{
-    background-color: rgb(250, 154, 205);
-}
-.fliped{
-    opacity: 50%;
+    background-color: rgb(255, 110, 187);
 }
 .button{
     display: inline-block;
@@ -138,4 +135,14 @@ h1{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+.c2{
+    display: none;
+}
+.plus{
+    width: auto;
+    height: auto;
+}
+.split{
+    display: inline-block;
 }
