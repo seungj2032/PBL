@@ -47,16 +47,5 @@ pink.addEventListener('click', function() {
 })
 
 function selected() {
-    /*disp1.style.display = 'none';
-    disp2.style.display = 'flex';
-
-    switch (color) {
-        case red:
-            
-            break;
-    
-        default:
-            break;
-    }*/
-    console.log(color);
+    alert("아직 제작중입니다. 발표때 공개예정");
 }
