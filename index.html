@@ -8,13 +8,11 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   </head>
   <body>
-    <div class="container">
+    <div class="container c1">
       <h1>색깔을 선택하세요</h1>
       <div class="color">
-        <div class="colors" id="red"></div>
         <div class="colors" id="orange"></div>
         <div class="colors" id="yellow"></div>
-        <div class="colors" id="green"></div>
         <div class="colors" id="blue"></div>
         <div class="colors" id="navy"></div> 
         <div class="colors" id="purple"></div>
@@ -23,19 +21,19 @@
     </div>  
     <div class="container c2">
       <div class="color plus">
-        <div class="split" id="mergecolor1"></div>
+        <div class="split1"></div>
         <div class="area">
           <div class="back">&nbsp;</div>
           <div class="question">?</div>
           <div class="back">&nbsp;</div>
         </div>
-        <div class="split" id="mergecolor2"></div>
+        <div class="split2"></div>
       </div>
       <div class="choicearea">
         <div class="choice" id="aisle"></div>
         <div class="choice" id="wall"></div>
       </div>
-      <h2>무엇을 놓아야 <span>주황</span>색을 만들 수 있을까요?</h2>
+      <h2>무엇을 놓아야 <span class="text_color">주황</span>색을 만들 수 있을까요?</h2>
     </div>
     <div class="container c2 res_merge">
       <div class="color result">
@@ -43,16 +41,17 @@
           <img src="https://imgur.com/TpLe95y.png"></img>
         </div>
       </div>
-      <div class="res_text"><span>주황</span>색을 만들었습니다 
+      <div class="res_text"><span class="text_color">주황</span>색을 만들었습니다 
         <span style="font-size: 42px;">&#128522;</span></div>
+      <span id="cc">click!</span>
     </div>
     <div class="container c2 res_wall">
       <div class="color result">
-        <div class="split" id="mergecolor1"></div>
+        <div class="split1"></div>
         <div class="area_wall"></div>
-        <div class="split" id="mergecolor2"></div>
+        <div class="split2"></div>
       </div>
-      <div class="res_text"><span>주황</span>색을 만들지 못했습니다 
+      <div class="res_text"><span class="text_color">주황</span>색을 만들지 못했습니다 
         <span style="font-size: 42px;">&#128546;</span></div>
     </div>
     <div class="container c3">
@@ -60,7 +59,7 @@
       <p id="UN">유엔 제5사무국 유치를</p>
       <p>통해 이룰 수 있습니다</p>
       <h6>평화 실현을 위해 함께 동참하여 주세요</h6>
-      <div class="button">서명</div>
+      <div class="button" onclick="sign()">서명</div>
     </div>
     <!-- 
       <div class="back">&nbsp;</div>
