@@ -7,8 +7,6 @@ let navy = document.getElementById('navy');
 let purple = document.getElementById('purple');
 let pink = document.getElementById('pink');
 
-let disp1 = document.querySelector('.c1');
-let disp2 = document.querySelector('.c2');
 /*let colorArray = document.querySelectorAll('.colors');
 
 console.log(colorArray);*/
@@ -46,6 +44,20 @@ pink.addEventListener('click', function() {
     selected()
 })
 
+let disp1 = document.querySelector('.c1');
+let disp2 = document.querySelector('.c2');
+
 function selected() {
-    alert("아직 제작중입니다. 발표때 공개예정");
+    disp1.style.display = 'none';
+    disp2.style.display = 'flex';
+
+    switch (color) {
+        case red:
+            
+            break;
+    
+        default:
+            break;
+    }
+    console.log(color);
 }
