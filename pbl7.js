@@ -126,6 +126,10 @@ function selected() {
 
     for(i=0;i<textColor.length;i++){
         textColor[i].innerText = text;
+        if(color=="blue")
+            textColor[i].style.color = "skyblue";
+        else
+            textColor[i].style.color = color;
     }
 }
 
