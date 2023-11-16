@@ -269,6 +269,8 @@ h2{
 h2 > .text_color{
     font-family: "NanumsquareNeo Heavy";
     font-size: 38px;
+    -webkit-text-stroke: 0.8px #2e2e2e;
+    text-shadow: 0.5px 0.5px 1px #2e2e2e;
 }
 .res_wall{
     display: none;
@@ -300,6 +302,8 @@ h2 > .text_color{
 div > .text_color{
     font-family: "NanumsquareNeo Heavy";
     font-size: 45px;
+    -webkit-text-stroke: 0.8px #2e2e2e;
+    text-shadow: 0.5px 0.5px 1px #2e2e2e;
 }
 .res_merge{
     display: none;
